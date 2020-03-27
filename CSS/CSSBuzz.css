@@ -1,0 +1,23 @@
+body {
+	counter-reset: fizzbuzz;
+}
+
+span {
+	counter-increment: fizzbuzz;
+}
+
+span:before {
+	content: counter(fizzbuzz);
+}
+
+span:nth-child(3n):before {
+	content: "Fizz"
+}
+
+span:nth-child(5n):before {
+	content: "Buzz"
+}
+
+span:nth-child(15n):before {
+	content: "FizzBuzz"
+}
