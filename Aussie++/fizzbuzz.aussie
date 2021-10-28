@@ -1,0 +1,23 @@
+G'DAY MATE!
+
+// Aussie++ located at https://aussieplusplus.vercel.app/#code and https://github.com/zackradisic/aussieplusplus
+// Note: The language specs don't seem to match what the interpreter accepts. This errs on the side of the interpreter.
+THE HARD YAKKA FOR fizzbuzz IS () <
+	I RECKON x IS A WALKABOUT FROM (0 TO 100] <
+		YA RECKON x % 3 == 0 ? <
+		  YA RECKON x % 5 == 0 ? <
+		    GIMME "FIZZBUZZ";
+		  > WHATABOUT NAH, YEAH ? <
+		    GIMME "FIZZ";
+		  >
+		> WHATABOUT x % 5 == 0 ? <
+		  GIMME "BUZZ";
+		> WHATABOUT NAH, YEAH ? <
+		  GIMME x;
+		>
+	>
+>
+
+fizzbuzz();
+
+CHEERS C***!
