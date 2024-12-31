@@ -4,8 +4,8 @@ for (i = 1; i <= 100; i++) {
             console.log("FizzBuzz");
         }
         else {
-			console.log("Fizz");
-		}
+            console.log("Fizz");
+        }
     }
     else if (i % 5 === 0) {
         console.log("Buzz");
